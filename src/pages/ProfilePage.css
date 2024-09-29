@@ -1,0 +1,119 @@
+.profile-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #f5f5f5;
+  }
+  
+  .profile-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-card h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #092c5c;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: #092c5c;
+  }
+  
+  .profile-info p {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .verified-badge {
+    color: #1da1f2; /* Twitter-like blue for the verified badge */
+    margin-left: 10px;
+  }
+  
+  .edit-profile-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #8fbce6, #092c5c);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .edit-profile-btn:hover {
+    background: linear-gradient(135deg, #f5d130, #8fbce6);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+
+  /* Existing styles remain unchanged */
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    color: #092c5c;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bbbbbb;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus {
+    border-color: #8fbce6;
+    outline: none;
+  }
+  
+  .save-btn,
+  .cancel-btn {
+    width: 48%;
+    padding: 12px;
+    margin: 5px 1%;
+    background: linear-gradient(135deg, #8fbce6, #092c5c);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .save-btn:hover,
+  .cancel-btn:hover {
+    background: linear-gradient(135deg, #f5d130, #8fbce6);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  .cancel-btn {
+    background: #aaaaaa; /* Neutral color */
+  }
+  
+  .cancel-btn:hover {
+    background: #bbbbbb; /* Slightly lighter on hover */
+  }
+  

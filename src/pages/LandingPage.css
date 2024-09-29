@@ -1,0 +1,50 @@
+.landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #092c5c; /* Primary background color */
+    color: white;
+  }
+  
+  .logo-container {
+    text-align: center;
+  }
+  
+  .company-logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .company-name {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .company-description {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #f5d130; /* Accent color for description */
+  }
+  
+  .get-started-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #f5d130, #8fbce6); /* Gradient background */
+    color: #092c5c; /* Primary color for text */
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif; /* Button font */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .get-started-btn:hover {
+    background: linear-gradient(135deg, #8fbce6, #092c5c); /* Hover gradient */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  

@@ -1,0 +1,66 @@
+.model-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .model-page h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #092c5c;
+    margin-bottom: 20px;
+  }
+  
+  .model-page p {
+    color: #092c5c;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .model-page h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #092c5c;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .model-page ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #092c5c;
+  }
+  
+  .review-card {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .review-card p {
+    margin: 5px 0;
+    color: #092c5c;
+  }
+  
+  .back-home-btn {
+    margin-top: 30px;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #8fbce6, #092c5c);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .back-home-btn:hover {
+    background: linear-gradient(135deg, #f5d130, #8fbce6);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
